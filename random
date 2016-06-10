@@ -1,0 +1,12 @@
+#!/bin/bash
+FILES=/media/Media/Music/*.mp3
+count=0
+IFS='
+'
+for f in $(ls ${FILES} | sort -R)
+do
+  y1=${f##*/}
+  printf "%3d> %s\n" "$count" "$y1"
+  omxplayer "$f" &>/dev/null
+  count=$((count+1))
+done

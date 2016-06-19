@@ -1,4 +1,5 @@
-A simple script used to format an sd card with the first partition as the whole card and last partition 500MB on openwrt. Be sure to make it executable.
+#Partition for OpenWRT /Overlay
+A simple script used to format an sd card with the first partition as the whole card and last partition 500MB on openwrt. Be sure to make it executable. This example is used to make the first partiton fat32 for windows use, and the second partiton ext4 for OpenWRT /overlay.
 
 **Example**  
 cd /tmp  

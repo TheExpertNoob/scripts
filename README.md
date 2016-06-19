@@ -1,2 +1,2 @@
-# scripts
-Collection of Bash Scripts I use. Feel free to use them.
+# Random Music Player  
+Short bit of code to play music randomly from a directory on the raspberry pi.  

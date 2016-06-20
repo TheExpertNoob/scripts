@@ -6,6 +6,8 @@ cd /tmp
 export LD_LIBRARY_PATH='/lib:/usr/lib:/tmp/lib:/tmp/usr/lib'  
 opkg update && opkg install -d ram e2fsprogs mkdosfs fdisk  
 wget http://druss.org/public/parts  
+or  
+wget https://raw.githubusercontent.com/TheExpertNoob/scripts/parts/parts  
 chmod +x /tmp/parts  
 ./parts  
 /tmp/usr/sbin/mkfs.vfat /dev/sda1  

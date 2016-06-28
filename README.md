@@ -1,4 +1,3 @@
-# OpenWRT-Zsun Piratebox config files
- * git clone https://github.com/Emeryth/openwrt-zsun.git
- * wget
- * wget
+# Scripts  
+Collection of Bash Scripts I use. Feel free to use them.  
+Select the diffent branches for different scripts.
